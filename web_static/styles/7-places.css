@@ -30,7 +30,6 @@
   border-right: 1px solid #dddddd;
 }
 
-
 .filters .locations,
 .filters .amenities {
   width: 25%;
@@ -47,8 +46,8 @@
 }
 
 .filters .popover {
-  background-color: #FAFAFA;
-  border: 1px solid #DDDDDD;
+  background-color: #fafafa;
+  border: 1px solid #dddddd;
   border-radius: 4px;
   position: absolute;
   width: calc(25% + 33px);
@@ -63,12 +62,34 @@
   z-index: 100;
 }
 
-
 .filters .locations:hover .popover,
-.filters .amenities:hover .popover
-{
+.filters .amenities:hover .popover {
   display: flex;
 }
 
+.places {
+  padding: 40px 20px;
+}
 
+.places-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
+.places article {
+  margin: 20px;
+  padding: 20px;
+  min-width: 390px;
+  border: 1px solid #ff5a5f;
+  text-align: center;
+}
+
+.places article h2 {
+  font-size: 20px;
+}
+
+.places h1 {
+  font-size: 30px;
+}
